@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+    background-image: linear-gradient(to left bottom,red ,black);
+    padding-bottom: 50px;
+}
+.gros{
+    height: 8px;
+    margin: 0px;
+   
+}
+
+textarea{
+    width: 8cm;
+    height: 4cm;
+}
+
+.text-navbar,.logo{
+    display: inline;
+
+}
+.logo li  a {
+    color: blue;
+    font-style: oblique;
+    font-size: 35px;
+    text-decoration-line: none;
+    margin: 160px;
+}
+
+
+.navbar{
+   display: flex;
+   height: 1.5cm;
+
+}
+.logo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:12px;
+    margin-right: 15px;
+    width: 60px;
+    height: 50px;
+    
+}
+
+.image{
+    background-image: url('1_LzxEGZa4xDOFc7Ch67Iprg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:30cm;
+}
+
+#lol{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+@media (min-width:576px){
+    .image-petit1,.image-petit2,.image-petit3{
+        max-width: 200px;
+    }
+}
+
+
+.image-petit1{
+    background-image: url('Marketing-and-sales.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+   
+    box-shadow: 5px 10px 8px 10px black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-petit2{
+    background-image: url('1_LzxEGZa4xDOFc7Ch67Iprg.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+    box-shadow: 5px 10px 8px 10px black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-petit3{
+   background-image: url('depositphotos_155807100-stock-photo-growth-chart-on-laptop-computer.jpg');
+    width: 300px;
+    background-size: cover;
+    height: 300px;
+   
+    box-shadow: 5px 10px 8px 10px black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-petit1:hover,.image-petit2:hover,.image-petit3:hover{
+    opacity: 0.8;
+    border: solid white 3px; 
+}
+
+hr{
+    background-color: white;
+    height: 2px;
+}
+
+.d-block{
+    height: 100vh;
+}
+
+.view{
+    font-size: 0.8cm;
+    font-style: oblique;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+.view:hover{
+    font-size: 1.1cm;
+}
+
+
+h1{
+    color: white;
+    font-style: oblique;
+    text-shadow: 1px 1px black;
+    padding-bottom: 1cm;
+}
+
+.big-image{
+    background-image: url('webdev3.png');
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+}
+
+label{
+    font-size: 0.5cm;
+    font-style: normal;
+    text-shadow: 1px 1px black;
+}
+
+
+input{
+    border-radius: 5px;
+    width: 5cm;
+       height: 0.6cm;
+}
+ .logo li a:hover{
+    border: none;
+    font-size: 1cm;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#baby{
+    font-size: 20px;
+}
+.button{
+    background-color:  red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.button2{
+    border-radius: 4px;
+    
+    size: 50px;
+}
+
+.hard{
+    background-image: url('webdev3.png');
+   background-position: center;
+    width: 100%;
+    height: 12cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hard{
+    font-size: 2cm;
+}
+
+i{
+  color: white;
+}
+
+.nigges{
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+    background-color: red;
+    height: 0.9cm;
+    width: 2.5cm;
+    display: none;
+}
+
+
+
+
+
+#lol a {
+    font: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
